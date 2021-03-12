@@ -19,6 +19,6 @@ public class RabbitConfig {
                 BindingBuilder
                         .bind(topicQueue)
                         .to(topicExchange)
-                        .with("*.nice-key.*"));
+                        .with("*.important.*"));
     }
 }
